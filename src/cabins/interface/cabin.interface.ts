@@ -1,5 +1,5 @@
-export class Cabin {
-    id: string;
+export interface ICabin {
+    id: number;
     name: string;
     price: number;
 }
